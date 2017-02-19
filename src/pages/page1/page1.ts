@@ -24,4 +24,8 @@ export class Page1Page {
     this.navCtrl.push( Page3Page );
   }
 
+  goToBack(){
+    this.navCtrl.pop();
+  }
+
 }
